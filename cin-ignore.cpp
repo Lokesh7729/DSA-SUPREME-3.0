@@ -7,7 +7,7 @@ int main () {
   first = std::cin.get();     // get one character
   std::cin.ignore(256,' ');   // ignore until space
 
-  last = std::cin.get();      // get one character
+  last = std::cin.get();      // get one character 
 
   std::cout << "Your initials are " << first << last << '\n';
 
