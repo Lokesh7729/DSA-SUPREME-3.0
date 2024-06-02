@@ -7,8 +7,8 @@ int main(){
     cin>>n;
     for (int row = 0; row < n; row++)
     {
-        
         int totalColumns= row+1;
+        
         for (int col = 0; col < totalColumns; col++)
         {
             if (row==0 || row==1 || row==n-1)
@@ -16,11 +16,11 @@ int main(){
                 cout<<"* ";
             }
             else{
-                if (col==0 || row==col || totalColumns-1)
+                if (col==0 || col==totalColumns-1)
                 {
                     cout<<"* ";
                 }else{
-                    cout<<"  ";
+                    cout <<"  ";
                 }
             }
         }
