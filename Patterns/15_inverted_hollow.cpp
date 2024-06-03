@@ -1,4 +1,7 @@
-void invertedPyramid(int n){
+#include<iostream>
+using namespace std;
+
+void invertedHollowPyramid(int n){
 
     for (int  row = 0; row < n; row++)
     {   
@@ -15,12 +18,15 @@ void invertedPyramid(int n){
                 cout<<"* ";
             }else{
                 cout<<"  ";
-            }
-            
+            } 
          }
-            cout<<endl;
-         
-        
+            cout<<endl;  
     }
-    
+}
+int main(){
+    int n;
+    cin>>n;
+
+    invertedHollowPyramid(n);
+    return 0;
 }

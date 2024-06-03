@@ -1,3 +1,6 @@
+#include<iostream>
+using namespace std;
+
 void invertedPyramid(int n){
 
     for (int  row = 0; row < n; row++)
@@ -10,17 +13,19 @@ void invertedPyramid(int n){
         // 2.> stars
          for (int col = 0; col < n-row; col++)
          {
-            if (row==0 || row==n-1 || col==0|| col==n-row-1)
-            {
-                cout<<"* ";
-            }else{
-                cout<<"  ";
-            }
-            
+            cout<<"* ";
          }
             cout<<endl;
          
         
     }
     
+}
+
+int main(){
+    int n;
+    cin>>n;
+
+    invertedPyramid(n);
+    return 0;
 }
