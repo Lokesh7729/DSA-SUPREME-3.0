@@ -14,15 +14,8 @@ void ABCBA(int n){
         {
             ch--;
             cout<< ch;
-    
         }
-        
-
-
-
-
-        cout<<endl;
-        
+        cout<<endl;    
     }   
 }
 int main(){
