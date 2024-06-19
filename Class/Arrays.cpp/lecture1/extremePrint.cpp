@@ -20,12 +20,7 @@ void extremePrint(int arr[], int size)
         cout<<arr[right]<<" ";
         right--;
         }
-        
-
-        
-        
     }
-    
 }
 int main()
 {
@@ -33,14 +28,11 @@ int main()
     int arr[100];
     cout<<"enter size :";
     cin>>size;
-
     for (int i = 0; i < size; i++)
     {
         cout<<"enter the input value of "<<i<<" :";
         cin>>arr[i];
     }
-    
-
-
     extremePrint(arr, size);
+    
 }
