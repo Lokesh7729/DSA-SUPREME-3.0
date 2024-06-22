@@ -57,7 +57,7 @@ int main(){
     cout<<"Front element : "<<v[0]<<endl;
     cout<<"Front element : "<<v.front()<<endl;
     cout<<"Last element : "<<v[v.size()-1]<<endl;
-    cout<<"Last element : "<<v.back()<<endl;
+    cout<<"Last element: "<<v.back()<<endl;
 
 
     
