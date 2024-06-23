@@ -15,18 +15,32 @@ int findMinmunIn2DArray(int arr[][4], int rowSize, int colSize ){
     return minValue;
 }
 
+int findMaximumIn2DArray(int arr[][4], int rowSize, int colSize ){
+    int maxValue= INT_MIN;
+    for (int i = 0; i < rowSize; i++)
+    {
+       for (int j = 0; j < colSize; j++)
+       {
+        maxValue= max(arr[i][j], maxValue);
+
+       }
+    }
+    return maxValue;
+}
 int main(){
     int arr[3][4]={
         {10,12,23,12},
         {23,34,45,25},
-        {73,74,24,7}
+        {700,74,24,7}
     };
 
     int rowSize=3;
     int colSize=4;
 
-int result = findMinmunIn2DArray(arr, rowSize,colSize);
-cout<<result;
+int min = findMinmunIn2DArray(arr, rowSize,colSize);
+cout<<"min : " <<min<<endl;
+int max = findMaximumIn2DArray(arr, rowSize,colSize);
+cout<<"max : " <<max<<endl;;
 
 
 
