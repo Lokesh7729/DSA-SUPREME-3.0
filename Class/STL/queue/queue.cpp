@@ -2,7 +2,10 @@
 #include<queue>
 using namespace std;
 
-int main(){
+int main(){ 
+    
+
+    // 0(1) and o(n)
 
     // creation
     queue<int> q;
