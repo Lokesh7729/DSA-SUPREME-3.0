@@ -1,5 +1,2 @@
- // auto it2 = unique(arr.begin(),arr.end());
-    // arr.erase(it2, arr.end());
-    // for(int a: arr){
-    // cout<< a <<" ";
-    // }
+ner_product(first.begin(),first.end(),second.begin(),0);
+// cout<<ans<<endl;   
