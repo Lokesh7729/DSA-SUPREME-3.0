@@ -41,7 +41,7 @@ int main(){
 
     // float f =11.45;
     // double d = 12.134252525;
-
+    // bool b= 0;
 
     char ch='a';
     cout<<sizeof(ch);
