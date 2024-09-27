@@ -21,17 +21,17 @@ int countZeroOne(int arr[], int size)
 
     // insertion
 
-    fill(arr,arr+zeroCount,0);
-    fill(arr+zeroCount,arr+size,1);
+    // fill(arr,arr+zeroCount,0);
+    // fill(arr+zeroCount,arr+size,1);
 
-    // for (int i = 0; i < zeroCount; i++)
-    // {
-    //     arr[i] = 0;
-    // }   
-    // for (int i = zeroCount; i < size; i++)
-    // {
-    //     arr[i] = 1;
-    // }
+    for (int i = 0; i < zeroCount; i++)
+    {
+        arr[i] = 0;
+    }   
+    for (int i = zeroCount; i < size; i++)
+    {
+        arr[i] = 1;
+    }
 }
 
 int main()
