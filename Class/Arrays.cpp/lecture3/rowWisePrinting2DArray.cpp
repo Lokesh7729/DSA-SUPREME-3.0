@@ -47,16 +47,12 @@ void diagonalWiseSum(int arr[][3], int rowSize, int colSize ){
     {
       for (int j = 0; j < colSize; j++)
       {
-        if (i+j==2)
+        if (i==j)
         {
             sum = sum + arr[i][j];
         }
-        
       }
-      
-        
     }
-    
 
     cout<<sum;
 
@@ -85,8 +81,8 @@ int main(){
     int rowSize=3;
     int colSize=3;
 
-// int rowSum = rowWiseSum(arr, rowSize,colSize);
-// int colSum = colWiseSum(arr, rowSize, colSize);
+int rowSum = rowWiseSum(arr, rowSize,colSize); 
+int colSum = colWiseSum(arr, rowSize, colSize);
 diagonalWiseSum(arr, rowSize, colSize);
 
 

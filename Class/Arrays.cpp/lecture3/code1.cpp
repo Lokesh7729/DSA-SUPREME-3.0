@@ -3,6 +3,7 @@ using namespace std;
 
 int main (){
 
+    // use as a map 
     // declaring 2d array
 
     // int arr[4][3];
