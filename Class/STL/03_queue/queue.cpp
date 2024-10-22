@@ -3,7 +3,10 @@
 using namespace std;
 
 int main(){ 
+
+    // FIFO
     
+    // no iternator in stack 
 
     // 0(1) and o(n)
 
@@ -24,6 +27,7 @@ int main(){
     q.pop();
     // 20 30 40
 
+    // no clear method in queue 
     // empty
 
     // front

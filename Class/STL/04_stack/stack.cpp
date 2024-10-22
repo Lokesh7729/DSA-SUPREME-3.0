@@ -5,6 +5,8 @@ using namespace std;
 
 int main(){
 
+    // LIFO
+
     // creation
     stack<int>st;
 
@@ -18,6 +20,7 @@ int main(){
     // 10 20 30
 
     cout<<st.size()<<endl;
+    // 3
 
     st.pop();  // o(1)
     cout<<st.size()<<endl;
@@ -34,12 +37,8 @@ int main(){
     }else{
         cout<<"Stack is not empty"<<endl;
     }
-    
-
-
-
-
-
-
+     
     return 0;
+
+    // no iternator in stack 
 }

@@ -1,7 +1,7 @@
 #include<iostream>
 #include<queue>
 using namespace std;
-
+// we can push can pop from front as well as end 
 int main(){
     // creation
     deque<int> dq;

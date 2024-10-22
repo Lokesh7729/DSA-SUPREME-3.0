@@ -7,7 +7,7 @@
 using namespace std;
 
 int main(){
-        // unordered map -> constant time 
+        // unordered map -> constant time -> randam order 
         // ordered map -> O(log n)
 
     // creation
