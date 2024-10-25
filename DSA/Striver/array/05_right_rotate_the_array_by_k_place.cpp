@@ -2,6 +2,8 @@
 using namespace std;
 #include<vector>
 
+/* 
+
 class Solution {
 public:
     void rotate(vector<int>& nums, int k) {
@@ -27,3 +29,5 @@ public:
 
     }
 };
+*/
+
