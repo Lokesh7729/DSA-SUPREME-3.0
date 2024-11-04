@@ -12,12 +12,10 @@ void findingFirstOccurence(int arr[], int n, int target, int &ansIndex)
     {
         if (arr[mid] == target)
         {
-            // ans found -> may or may not be first occurence
-            // store and compute
+            //may or may not be first occurence
+            //store and compute
             ansIndex = mid;
-            // kyu ki first index ki baat hori hai
-            // left mai jaau ya right mai
-            // left mai jayinge
+            //we want to find first occurence
             e = mid - 1;
         }
         if (target > arr[mid])
