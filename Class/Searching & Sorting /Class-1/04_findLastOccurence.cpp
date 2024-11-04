@@ -1,6 +1,6 @@
 #include <iostream>
 using namespace std;
-// Finding first occurence
+// Finding last occurence
 
 void findingLastOccurence(int arr[], int n, int target, int &ansIndex)
 {
@@ -12,12 +12,10 @@ void findingLastOccurence(int arr[], int n, int target, int &ansIndex)
     {
         if (arr[mid] == target)
         {
-            // ans found -> may or may not be last occurence
-            // store and compute
+            //may or may not be last occurence
+            //store and compute
             ansIndex = mid;
-            // kyu ki last index ki baat hori hai
-            // left mai jaau ya right mai
-            // right mai jayinge
+            //we want to find last occurence
             s = mid + 1;
         }
         if (target > arr[mid])
